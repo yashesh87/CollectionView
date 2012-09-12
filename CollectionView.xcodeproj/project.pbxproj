@@ -16,6 +16,11 @@
 		7213FD1915FF5E6E004A58FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7213FD1715FF5E6E004A58FF /* MainStoryboard.storyboard */; };
 		7213FD1C15FF5E6E004A58FF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213FD1B15FF5E6E004A58FF /* MasterViewController.m */; };
 		7213FD1F15FF5E6E004A58FF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213FD1E15FF5E6E004A58FF /* DetailViewController.m */; };
+		7213FD2915FF606F004A58FF /* User-Administrator-Blue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7213FD2615FF606F004A58FF /* User-Administrator-Blue-icon.png */; };
+		7213FD2A15FF606F004A58FF /* User-Executive-Green-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7213FD2715FF606F004A58FF /* User-Executive-Green-icon.png */; };
+		7213FD2C15FF610E004A58FF /* 1347365226_Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 7213FD2B15FF610E004A58FF /* 1347365226_Warning.png */; };
+		7213FD2F15FF6207004A58FF /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213FD2E15FF6207004A58FF /* CollectionViewCell.m */; };
+		7213FD3215FF69BE004A58FF /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7213FD3115FF69BE004A58FF /* UserInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,13 @@
 		7213FD1B15FF5E6E004A58FF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		7213FD1D15FF5E6E004A58FF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		7213FD1E15FF5E6E004A58FF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7213FD2615FF606F004A58FF /* User-Administrator-Blue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User-Administrator-Blue-icon.png"; sourceTree = "<group>"; };
+		7213FD2715FF606F004A58FF /* User-Executive-Green-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User-Executive-Green-icon.png"; sourceTree = "<group>"; };
+		7213FD2B15FF610E004A58FF /* 1347365226_Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1347365226_Warning.png; sourceTree = "<group>"; };
+		7213FD2D15FF6207004A58FF /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		7213FD2E15FF6207004A58FF /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		7213FD3015FF69BD004A58FF /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		7213FD3115FF69BE004A58FF /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,9 @@
 		7213FD0B15FF5E6E004A58FF /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				7213FD2B15FF610E004A58FF /* 1347365226_Warning.png */,
+				7213FD2615FF606F004A58FF /* User-Administrator-Blue-icon.png */,
+				7213FD2715FF606F004A58FF /* User-Executive-Green-icon.png */,
 				7213FD1415FF5E6E004A58FF /* AppDelegate.h */,
 				7213FD1515FF5E6E004A58FF /* AppDelegate.m */,
 				7213FD1715FF5E6E004A58FF /* MainStoryboard.storyboard */,
@@ -88,6 +103,10 @@
 				7213FD1D15FF5E6E004A58FF /* DetailViewController.h */,
 				7213FD1E15FF5E6E004A58FF /* DetailViewController.m */,
 				7213FD0C15FF5E6E004A58FF /* Supporting Files */,
+				7213FD2D15FF6207004A58FF /* CollectionViewCell.h */,
+				7213FD2E15FF6207004A58FF /* CollectionViewCell.m */,
+				7213FD3015FF69BD004A58FF /* UserInfo.h */,
+				7213FD3115FF69BE004A58FF /* UserInfo.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -156,6 +175,9 @@
 			files = (
 				7213FD1015FF5E6E004A58FF /* InfoPlist.strings in Resources */,
 				7213FD1915FF5E6E004A58FF /* MainStoryboard.storyboard in Resources */,
+				7213FD2915FF606F004A58FF /* User-Administrator-Blue-icon.png in Resources */,
+				7213FD2A15FF606F004A58FF /* User-Executive-Green-icon.png in Resources */,
+				7213FD2C15FF610E004A58FF /* 1347365226_Warning.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +192,8 @@
 				7213FD1615FF5E6E004A58FF /* AppDelegate.m in Sources */,
 				7213FD1C15FF5E6E004A58FF /* MasterViewController.m in Sources */,
 				7213FD1F15FF5E6E004A58FF /* DetailViewController.m in Sources */,
+				7213FD2F15FF6207004A58FF /* CollectionViewCell.m in Sources */,
+				7213FD3215FF69BE004A58FF /* UserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +305,7 @@
 				7213FD2415FF5E6E004A58FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
